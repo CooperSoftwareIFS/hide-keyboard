@@ -1,0 +1,60 @@
+{
+  "_from": "hide-keyboard@0.2.1",
+  "_id": "hide-keyboard@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-mb0030Gi6oylSE/F9W5lxLw/EzfEqZ6NIjn0RdorjXrHUBhRdQhKUCg+wAKQJJFytgadj1Duvqn8hbNZYjNYSg==",
+  "_location": "/hide-keyboard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "hide-keyboard@0.2.1",
+    "name": "hide-keyboard",
+    "escapedName": "hide-keyboard",
+    "rawSpec": "0.2.1",
+    "saveSpec": null,
+    "fetchSpec": "0.2.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hide-keyboard/-/hide-keyboard-0.2.1.tgz",
+  "_shasum": "17d2d8a4956d6b7a15ce83df8917dbc4aee8ac79",
+  "_spec": "hide-keyboard@0.2.1",
+  "_where": "C:\\GIT\\CS-Acquire\\Acquire",
+  "author": {
+    "name": "Gregory Heyligen",
+    "email": "cudderheyl@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/heyligengregory/ionic-hide-keyboard/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This library is used to keep the keyboard hidden in an Ionic application when the focus is on a input.",
+  "homepage": "https://github.com/heyligengregory/ionic-hide-keyboard#readme",
+  "jsnext:main": "hide-keyboard.js",
+  "keywords": [
+    "angular",
+    "ionic",
+    "input",
+    "keyboard",
+    "hide"
+  ],
+  "license": "MIT",
+  "main": "hide-keyboard.umd.js",
+  "module": "hide-keyboard.js",
+  "name": "hide-keyboard",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyligengregory/ionic-hide-keyboard.git"
+  },
+  "typings": "hide-keyboard.d.ts",
+  "version": "0.2.1"
+}
