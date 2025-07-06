@@ -79,7 +79,7 @@ var HideKeyboardDirective = (function () {
     
     HideKeyboardDirective.decorators = [
         { type: Directive, args: [{
-                    selector: '[hideKeyboard]'
+                    selector: '[hideKeyboard],[hidekeyboard]'
                 },] },
     ];
     /** @nocollapse */
