@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
  */
 var HideKeyboardDirective = (function () {
     function HideKeyboardDirective(el) {
-        if (el.nativeElement.attributes.hideKeyboard.value !== 'false')
+        if (el.nativeElement.attributes.hideKeyboard.value !== 'false') {
             var _this = this;
             this.el = el;
             this.readonly = true;
