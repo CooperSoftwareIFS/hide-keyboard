@@ -9,7 +9,7 @@ This library is used to keep the keyboard hidden in an Ionic application when th
 To install this library, run:
 
 ```bash
-$ npm install hide-keyboard --save
+$ npm install git+https://github.com/CooperSoftwareIFS/hide-keyboard.git --save
 ```
 
 ## Use library into Ionic Project
@@ -46,6 +46,7 @@ Once your library is imported, you can use its directives in your Ionic applicat
 ```xml
 <!-- You can now use your library component in app.component.html -->
 <ion-input hideKeyboard [attr.hideKeyboard]="!hideKeyboard ? false : true" placeholder="Barcode" name="barcodeField" id="barcodeField" type="text"></ion-input>
+<ion-input hideKeyboard="{{hideKeyboard}}" placeholder="Barcode" name="barcodeField" id="barcodeField" type="text"></ion-input>
 ```
 ## License
 
